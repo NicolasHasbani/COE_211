@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class EntryPoint{
+	public static void main(String [] args){
+
+	Scanner scan = new Scanner(System.in);
+
+	String firstName, lastName;
+	int age;
+	double salary;
+
+	System.out.println("Please input the employee's: ");
+	
+	System.out.println("First Name: ");
+	firstName = scan.nextLine();
+
+	System.out.println("Last Name: ");
+	lastName = scan.nextLine();
+
+	System.out.println("Age: ");
+	age = scan.nextInt();
+
+	System.out.println("Salary: ");
+	salary = scan.nextFloat();
+
+	Employee emp1 = new Employee(firstname, lastname, age, salary);
+	System.out.println(emp1.toString());
+
+	}
+}

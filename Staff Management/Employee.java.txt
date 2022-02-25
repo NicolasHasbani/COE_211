@@ -1,0 +1,19 @@
+public class Employee{
+
+	private string FirstName, LastName;
+	private int Age;
+	private double Salary;
+
+	public Employee (String name1, String name2, Int age1, double salary1){
+
+		FirstName = name1;
+		LastName = name2;
+		Age = age1;
+		Salary = salary1;
+	}
+	public String toString (){
+		String str = ("Employee Information: " + FirstName + " " + LastName + " " + Age + " " + salary);
+		return str;
+	}
+}
+
